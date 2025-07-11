@@ -370,3 +370,54 @@ nav li a{
     background-color: #ede53e;
     transform: translateY(-2px);
 }
+/* Footer Styles */
+.site-footer {
+    background-color:whitesmoke;
+    color: #ffffff;
+    padding: 60px 0;
+    margin-top: auto;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer-branding {
+    text-align: center;
+    max-width: 600px;
+}
+
+.footer-logo {
+    color: #4E47FF;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.footer-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #cdc8c8;
+    opacity: 0.9;
+}
+
+.footer-nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.footer-nav a {
+    color: #cdc8c8;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+}
