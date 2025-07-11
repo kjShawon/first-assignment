@@ -46,14 +46,19 @@ main{
     margin: 0 auto;
 }
 
-
-/* btn-style */
-
-
-.dark-2{
-    color: #474747;
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 3px;
+  
+    font-family: 'Inter', Arial, sans-serif;
 }
 
+body {
+    background-color: #f8f9fa;
+}
+
+/* btn-style */
 .btn-primary{
     background-color: #4E47FF;
     font-weight: bold;
@@ -71,10 +76,10 @@ main{
     transform: translateY(-2px);
 }
 
-
 .section-title{
     font-size: 35px;
 }
+
 /* Nav styles */
 nav{
     
@@ -117,9 +122,6 @@ nav li a{
     position: relative;
     margin: 130px 50px;
 }
-
-
-
 .action-title {
     font-size: 42px;
     font-weight: 700;
@@ -136,10 +138,6 @@ nav li a{
     margin-bottom: 30px;
     max-width: 80%;
 }
-
-
-
-
 .action-button:hover {
     background-color: #333;
     transform: translateY(-2px);
@@ -157,22 +155,6 @@ nav li a{
     opacity: 0.9;
     border-radius: 48px;
   
-}
-
-
-
-
-
-/* Base Styles */
-* {
-    margin: 0;
-    padding: 3px;
-  
-    font-family: 'Inter', Arial, sans-serif;
-}
-
-body {
-    background-color: #f8f9fa;
 }
 
 /* Productive Users Section */
